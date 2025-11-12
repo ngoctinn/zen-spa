@@ -1,60 +1,68 @@
 ---
 phase: planning
-title: Project Planning & Task Breakdown
-description: Break down work into actionable tasks and estimate timeline
+title: Lập Kế Hoạch Dự Án & Phân Tích Nhiệm Vụ
+description: Phân tích công việc thành các nhiệm vụ có thể thực hiện và ước tính thời gian
 ---
 
-# Project Planning & Task Breakdown
+# Lập Kế Hoạch Dự Án & Phân Tích Nhiệm Vụ
 
-## Milestones
-**What are the major checkpoints?**
+## Mốc Quan Trọng
 
-- [ ] Milestone 1: [Description]
-- [ ] Milestone 2: [Description]
-- [ ] Milestone 3: [Description]
+**Các điểm kiểm tra chính là gì?**
 
-## Task Breakdown
-**What specific work needs to be done?**
+- [ ] Mốc 1: [Mô tả]
+- [ ] Mốc 2: [Mô tả]
+- [ ] Mốc 3: [Mô tả]
 
-### Phase 1: Foundation
-- [ ] Task 1.1: [Description]
-- [ ] Task 1.2: [Description]
+## Phân Tích Nhiệm Vụ
 
-### Phase 2: Core Features
-- [ ] Task 2.1: [Description]
-- [ ] Task 2.2: [Description]
+**Công việc cụ thể nào cần thực hiện?**
 
-### Phase 3: Integration & Polish
-- [ ] Task 3.1: [Description]
-- [ ] Task 3.2: [Description]
+### Giai Đoạn 1: Nền Tảng
 
-## Dependencies
-**What needs to happen in what order?**
+- [ ] Nhiệm vụ 1.1: [Mô tả]
+- [ ] Nhiệm vụ 1.2: [Mô tả]
 
-- Task dependencies and blockers
-- External dependencies (APIs, services, etc.)
-- Team/resource dependencies
+### Giai Đoạn 2: Tính Năng Cốt Lõi
 
-## Timeline & Estimates
-**When will things be done?**
+- [ ] Nhiệm vụ 2.1: [Mô tả]
+- [ ] Nhiệm vụ 2.2: [Mô tả]
 
-- Estimated effort per task/phase
-- Target dates for milestones
-- Buffer for unknowns
+### Giai Đoạn 3: Tích Hợp & Hoàn Chỉnh
 
-## Risks & Mitigation
-**What could go wrong?**
+- [ ] Nhiệm vụ 3.1: [Mô tả]
+- [ ] Nhiệm vụ 3.2: [Mô tả]
 
-- Technical risks
-- Resource risks
-- Dependency risks
-- Mitigation strategies
+## Phụ Thuộc
 
-## Resources Needed
-**What do we need to succeed?**
+**Điều gì cần xảy ra theo thứ tự nào?**
 
-- Team members and roles
-- Tools and services
-- Infrastructure
-- Documentation/knowledge
+- Phụ thuộc nhiệm vụ và chướng ngại vật
+- Phụ thuộc bên ngoài (API, dịch vụ, v.v.)
+- Phụ thuộc đội/nguồn lực
 
+## Thời Gian & Ước Tính
+
+**Khi nào mọi thứ sẽ hoàn thành?**
+
+- Nỗ lực ước tính cho mỗi nhiệm vụ/giai đoạn
+- Ngày mục tiêu cho mốc
+- Bộ đệm cho những điều chưa biết
+
+## Rủi Ro & Giảm Thiểu
+
+**Điều gì có thể sai sót?**
+
+- Rủi ro kỹ thuật
+- Rủi ro nguồn lực
+- Rủi ro phụ thuộc
+- Chiến lược giảm thiểu
+
+## Tài Nguyên Cần Thiết
+
+**Chúng ta cần gì để thành công?**
+
+- Thành viên đội và vai trò
+- Công cụ và dịch vụ
+- Hạ tầng
+- Tài liệu/kiến thức

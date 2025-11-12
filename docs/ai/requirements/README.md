@@ -1,51 +1,56 @@
 ---
 phase: requirements
-title: Requirements & Problem Understanding
-description: Clarify the problem space, gather requirements, and define success criteria
+title: Yêu Cầu & Hiểu Vấn Đề
+description: Làm rõ không gian vấn đề, thu thập yêu cầu và xác định tiêu chí thành công
 ---
 
-# Requirements & Problem Understanding
+# Yêu Cầu & Hiểu Vấn Đề
 
-## Problem Statement
-**What problem are we solving?**
+## Phát Biểu Vấn Đề
 
-- Describe the core problem or pain point
-- Who is affected by this problem?
-- What is the current situation/workaround?
+**Chúng ta đang giải quyết vấn đề gì?**
 
-## Goals & Objectives
-**What do we want to achieve?**
+- Mô tả vấn đề cốt lõi hoặc điểm đau
+- Ai bị ảnh hưởng bởi vấn đề này?
+- Tình hình hiện tại/cách giải quyết tạm thời là gì?
 
-- Primary goals
-- Secondary goals
-- Non-goals (what's explicitly out of scope)
+## Mục Tiêu & Mục Đích
 
-## User Stories & Use Cases
-**How will users interact with the solution?**
+**Chúng ta muốn đạt được gì?**
 
-- As a [user type], I want to [action] so that [benefit]
-- Key workflows and scenarios
-- Edge cases to consider
+- Mục tiêu chính
+- Mục tiêu phụ
+- Không mục tiêu (điều gì rõ ràng nằm ngoài phạm vi)
 
-## Success Criteria
-**How will we know when we're done?**
+## Câu Chuyện Người Dùng & Trường Hợp Sử Dụng
 
-- Measurable outcomes
-- Acceptance criteria
-- Performance benchmarks (if applicable)
+**Người dùng sẽ tương tác với giải pháp như thế nào?**
 
-## Constraints & Assumptions
-**What limitations do we need to work within?**
+- Là một [loại người dùng], tôi muốn [hành động] để [lợi ích]
+- Quy trình làm việc và kịch bản chính
+- Trường hợp biên cần xem xét
 
-- Technical constraints
-- Business constraints
-- Time/budget constraints
-- Assumptions we're making
+## Tiêu Chí Thành Công
 
-## Questions & Open Items
-**What do we still need to clarify?**
+**Chúng ta sẽ biết khi nào hoàn thành?**
 
-- Unresolved questions
-- Items requiring stakeholder input
-- Research needed
+- Kết quả có thể đo lường
+- Tiêu chí chấp nhận
+- Điểm chuẩn hiệu suất (nếu áp dụng)
 
+## Ràng Buộc & Giả Định
+
+**Chúng ta cần làm việc trong giới hạn nào?**
+
+- Ràng buộc kỹ thuật
+- Ràng buộc kinh doanh
+- Ràng buộc thời gian/ngân sách
+- Giả định chúng ta đang đưa ra
+
+## Câu Hỏi & Vấn Đề Mở
+
+**Chúng ta vẫn cần làm rõ gì?**
+
+- Câu hỏi chưa giải quyết
+- Vấn đề cần đầu vào từ bên liên quan
+- Nghiên cứu cần thiết

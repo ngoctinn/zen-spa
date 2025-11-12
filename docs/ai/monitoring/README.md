@@ -1,80 +1,93 @@
 ---
 phase: monitoring
-title: Monitoring & Observability
-description: Define monitoring strategy, metrics, alerts, and incident response
+title: Giám Sát & Quan Sát
+description: Xác định chiến lược giám sát, chỉ số, cảnh báo và phản hồi sự cố
 ---
 
-# Monitoring & Observability
+# Giám Sát & Quan Sát
 
-## Key Metrics
-**What do we need to track?**
+## Chỉ Số Chính
 
-### Performance Metrics
-- Response time/latency
-- Throughput/requests per second
-- Resource utilization (CPU, memory, disk)
+**Chúng ta cần theo dõi gì?**
 
-### Business Metrics
-- User engagement metrics
-- Conversion/success rates
-- Feature usage
+### Chỉ Số Hiệu Suất
 
-### Error Metrics
-- Error rates by type
-- Failed requests
-- Exception tracking
+- Thời gian phản hồi/độ trễ
+- Thông lượng/yêu cầu mỗi giây
+- Sử dụng tài nguyên (CPU, bộ nhớ, đĩa)
 
-## Monitoring Tools
-**What tools are we using?**
+### Chỉ Số Kinh Doanh
 
-- Application monitoring (APM)
-- Infrastructure monitoring
-- Log aggregation
-- User analytics
+- Chỉ số tương tác người dùng
+- Tỷ lệ chuyển đổi/thành công
+- Sử dụng tính năng
 
-## Logging Strategy
-**What do we log and how?**
+### Chỉ Số Lỗi
 
-- Log levels and categories
-- Structured logging format
-- Log retention policy
-- Sensitive data handling
+- Tỷ lệ lỗi theo loại
+- Yêu cầu thất bại
+- Theo dõi ngoại lệ
 
-## Alerts & Notifications
-**When and how do we get notified?**
+## Công Cụ Giám Sát
 
-### Critical Alerts
-- Alert 1: [Condition] → [Action]
-- Alert 2: [Condition] → [Action]
+**Chúng ta sử dụng công cụ nào?**
 
-### Warning Alerts
-- Alert 1: [Condition] → [Action]
-- Alert 2: [Condition] → [Action]
+- Giám sát ứng dụng (APM)
+- Giám sát hạ tầng
+- Tổng hợp nhật ký
+- Phân tích người dùng
 
-## Dashboards
-**What do we visualize?**
+## Chiến Lược Nhật Ký
 
-- System health dashboard
-- Business metrics dashboard
-- Custom views per team/role
+**Chúng ta nhật ký gì và như thế nào?**
 
-## Incident Response
-**How do we handle issues?**
+- Cấp độ nhật ký và danh mục
+- Định dạng nhật ký có cấu trúc
+- Chính sách lưu giữ nhật ký
+- Xử lý dữ liệu nhạy cảm
 
-### On-Call Rotation
-- Schedule and contacts
-- Escalation path
+## Cảnh Báo & Thông Báo
 
-### Incident Process
-1. Detection and triage
-2. Investigation and diagnosis
-3. Resolution and mitigation
-4. Post-mortem and learning
+**Khi nào và như thế nào chúng ta được thông báo?**
 
-## Health Checks
-**How do we verify system health?**
+### Cảnh Báo Quan Trọng
 
-- Endpoint health checks
-- Dependency checks
-- Automated smoke tests
+- Cảnh báo 1: [Điều kiện] → [Hành động]
+- Cảnh báo 2: [Điều kiện] → [Hành động]
 
+### Cảnh Báo Cảnh Báo
+
+- Cảnh báo 1: [Điều kiện] → [Hành động]
+- Cảnh báo 2: [Điều kiện] → [Hành động]
+
+## Bảng Điều Khiển
+
+**Chúng ta trực quan hóa gì?**
+
+- Bảng điều khiển sức khỏe hệ thống
+- Bảng điều khiển chỉ số kinh doanh
+- Chế độ xem tùy chỉnh theo đội/người dùng
+
+## Phản Hồi Sự Cố
+
+**Chúng ta xử lý vấn đề như thế nào?**
+
+### Luân Phiếu Trực
+
+- Lịch trình và liên hệ
+- Đường dẫn leo thang
+
+### Quy Trình Sự Cố
+
+1. Phát hiện và phân loại
+2. Điều tra và chẩn đoán
+3. Giải quyết và giảm thiểu
+4. Bài học rút kinh nghiệm
+
+## Kiểm Tra Sức Khỏe
+
+**Chúng ta xác minh sức khỏe hệ thống như thế nào?**
+
+- Kiểm tra sức khỏe điểm cuối
+- Kiểm tra phụ thuộc
+- Kiểm tra khói tự động

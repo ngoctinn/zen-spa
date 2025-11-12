@@ -1,65 +1,73 @@
 ---
 phase: implementation
-title: Implementation Guide
-description: Technical implementation notes, patterns, and code guidelines
+title: Hướng Dẫn Triển Khai
+description: Ghi chú triển khai kỹ thuật, mẫu và hướng dẫn mã
 ---
 
-# Implementation Guide
+# Hướng Dẫn Triển Khai
 
-## Development Setup
-**How do we get started?**
+## Thiết Lập Phát Triển
 
-- Prerequisites and dependencies
-- Environment setup steps
-- Configuration needed
+**Chúng ta bắt đầu như thế nào?**
 
-## Code Structure
-**How is the code organized?**
+- Điều kiện tiên quyết và phụ thuộc
+- Các bước thiết lập môi trường
+- Cấu hình cần thiết
 
-- Directory structure
-- Module organization
-- Naming conventions
+## Cấu Trúc Mã
 
-## Implementation Notes
-**Key technical details to remember:**
+**Mã được tổ chức như thế nào?**
 
-### Core Features
-- Feature 1: Implementation approach
-- Feature 2: Implementation approach
-- Feature 3: Implementation approach
+- Cấu trúc thư mục
+- Tổ chức mô-đun
+- Quy ước đặt tên
 
-### Patterns & Best Practices
-- Design patterns being used
-- Code style guidelines
-- Common utilities/helpers
+## Ghi Chú Triển Khai
 
-## Integration Points
-**How do pieces connect?**
+**Chi tiết kỹ thuật chính cần nhớ:**
 
-- API integration details
-- Database connections
-- Third-party service setup
+### Tính Năng Cốt Lõi
 
-## Error Handling
-**How do we handle failures?**
+- Tính năng 1: Cách tiếp cận triển khai
+- Tính năng 2: Cách tiếp cận triển khai
+- Tính năng 3: Cách tiếp cận triển khai
 
-- Error handling strategy
-- Logging approach
-- Retry/fallback mechanisms
+### Mẫu & Thực Tiễn Tốt Nhất
 
-## Performance Considerations
-**How do we keep it fast?**
+- Các mẫu thiết kế đang sử dụng
+- Hướng dẫn phong cách mã
+- Tiện ích/phụ trợ phổ biến
 
-- Optimization strategies
-- Caching approach
-- Query optimization
-- Resource management
+## Điểm Tích Hợp
 
-## Security Notes
-**What security measures are in place?**
+**Các phần kết nối như thế nào?**
 
-- Authentication/authorization
-- Input validation
-- Data encryption
-- Secrets management
+- Chi tiết tích hợp API
+- Kết nối cơ sở dữ liệu
+- Thiết lập dịch vụ bên thứ ba
 
+## Xử Lý Lỗi
+
+**Chúng ta xử lý thất bại như thế nào?**
+
+- Chiến lược xử lý lỗi
+- Cách tiếp cận ghi nhật ký
+- Cơ chế thử lại/fallback
+
+## Cân Nhắc Hiệu Suất
+
+**Chúng ta giữ tốc độ như thế nào?**
+
+- Chiến lược tối ưu hóa
+- Cách tiếp cận cache
+- Tối ưu hóa truy vấn
+- Quản lý tài nguyên
+
+## Ghi Chú Bảo Mật
+
+**Các biện pháp bảo mật nào đang được áp dụng?**
+
+- Xác thực/ủy quyền
+- Xác thực đầu vào
+- Mã hóa dữ liệu
+- Quản lý bí mật

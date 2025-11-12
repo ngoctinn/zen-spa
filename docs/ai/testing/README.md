@@ -1,81 +1,91 @@
 ---
 phase: testing
-title: Testing Strategy
-description: Define testing approach, test cases, and quality assurance
+title: Chiến Lược Kiểm Tra
+description: Xác định cách tiếp cận kiểm tra, trường hợp kiểm tra và đảm bảo chất lượng
 ---
 
-# Testing Strategy
+# Chiến Lược Kiểm Tra
 
-## Test Coverage Goals
-**What level of testing do we aim for?**
+## Mục Tiêu Bao Phủ Kiểm Tra
 
-- Unit test coverage target (default: 100% of new/changed code)
-- Integration test scope (critical paths + error handling)
-- End-to-end test scenarios (key user journeys)
-- Alignment with requirements/design acceptance criteria
+**Chúng ta nhắm đến mức kiểm tra nào?**
 
-## Unit Tests
-**What individual components need testing?**
+- Mục tiêu bao phủ kiểm tra đơn vị (mặc định: 100% mã mới/thay đổi)
+- Phạm vi kiểm tra tích hợp (đường dẫn quan trọng + xử lý lỗi)
+- Kịch bản kiểm tra end-to-end (hành trình người dùng chính)
+- Căn chỉnh với tiêu chí chấp nhận yêu cầu/thiết kế
 
-### Component/Module 1
-- [ ] Test case 1: [Description] (covers scenario / branch)
-- [ ] Test case 2: [Description] (covers edge case / error handling)
-- [ ] Additional coverage: [Description]
+## Kiểm Tra Đơn Vị
 
-### Component/Module 2
-- [ ] Test case 1: [Description]
-- [ ] Test case 2: [Description]
-- [ ] Additional coverage: [Description]
+**Thành phần riêng lẻ nào cần kiểm tra?**
 
-## Integration Tests
-**How do we test component interactions?**
+### Thành Phần/Mô-đun 1
 
-- [ ] Integration scenario 1
-- [ ] Integration scenario 2
-- [ ] API endpoint tests
-- [ ] Integration scenario 3 (failure mode / rollback)
+- [ ] Trường hợp kiểm tra 1: [Mô tả] (bao phủ kịch bản / nhánh)
+- [ ] Trường hợp kiểm tra 2: [Mô tả] (bao phủ trường hợp biên / xử lý lỗi)
+- [ ] Bao phủ bổ sung: [Mô tả]
 
-## End-to-End Tests
-**What user flows need validation?**
+### Thành Phần/Mô-đun 2
 
-- [ ] User flow 1: [Description]
-- [ ] User flow 2: [Description]
-- [ ] Critical path testing
-- [ ] Regression of adjacent features
+- [ ] Trường hợp kiểm tra 1: [Mô tả]
+- [ ] Trường hợp kiểm tra 2: [Mô tả]
+- [ ] Bao phủ bổ sung: [Mô tả]
 
-## Test Data
-**What data do we use for testing?**
+## Kiểm Tra Tích Hợp
 
-- Test fixtures and mocks
-- Seed data requirements
-- Test database setup
+**Chúng ta kiểm tra tương tác thành phần như thế nào?**
 
-## Test Reporting & Coverage
-**How do we verify and communicate test results?**
+- [ ] Kịch bản tích hợp 1
+- [ ] Kịch bản tích hợp 2
+- [ ] Kiểm tra điểm cuối API
+- [ ] Kịch bản tích hợp 3 (chế độ thất bại / rollback)
 
-- Coverage commands and thresholds (`npm run test -- --coverage`)
-- Coverage gaps (files/functions below 100% and rationale)
-- Links to test reports or dashboards
-- Manual testing outcomes and sign-off
+## Kiểm Tra End-to-End
 
-## Manual Testing
-**What requires human validation?**
+**Luồng người dùng nào cần xác thực?**
 
-- UI/UX testing checklist (include accessibility)
-- Browser/device compatibility
-- Smoke tests after deployment
+- [ ] Luồng người dùng 1: [Mô tả]
+- [ ] Luồng người dùng 2: [Mô tả]
+- [ ] Kiểm tra đường dẫn quan trọng
+- [ ] Hồi quy của các tính năng liền kề
 
-## Performance Testing
-**How do we validate performance?**
+## Dữ Liệu Kiểm Tra
 
-- Load testing scenarios
-- Stress testing approach
-- Performance benchmarks
+**Chúng ta sử dụng dữ liệu nào để kiểm tra?**
 
-## Bug Tracking
-**How do we manage issues?**
+- Bộ dữ liệu kiểm tra và mô phỏng
+- Yêu cầu dữ liệu hạt giống
+- Thiết lập cơ sở dữ liệu kiểm tra
 
-- Issue tracking process
-- Bug severity levels
-- Regression testing strategy
+## Báo Cáo & Bao Phủ Kiểm Tra
 
+**Chúng ta xác minh và giao tiếp kết quả kiểm tra như thế nào?**
+
+- Lệnh bao phủ và ngưỡng (`npm run test -- --coverage`)
+- Khoảng trống bao phủ (tệp/chức năng dưới 100% và lý do)
+- Liên kết đến báo cáo hoặc bảng điều khiển kiểm tra
+- Kết quả kiểm tra thủ công và ký duyệt
+
+## Kiểm Tra Thủ Công
+
+**Điều gì cần xác thực của con người?**
+
+- Danh sách kiểm tra kiểm tra UI/UX (bao gồm khả năng truy cập)
+- Tương thích trình duyệt/thiết bị
+- Kiểm tra khói sau triển khai
+
+## Kiểm Tra Hiệu Suất
+
+**Chúng ta xác thực hiệu suất như thế nào?**
+
+- Kịch bản kiểm tra tải
+- Cách tiếp cận kiểm tra căng thẳng
+- Điểm chuẩn hiệu suất
+
+## Theo Dõi Lỗi
+
+**Chúng ta quản lý vấn đề như thế nào?**
+
+- Quy trình theo dõi vấn đề
+- Mức độ nghiêm trọng lỗi
+- Chiến lược kiểm tra hồi quy

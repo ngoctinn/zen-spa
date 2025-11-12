@@ -1,72 +1,83 @@
 ---
 phase: deployment
-title: Deployment Strategy
-description: Define deployment process, infrastructure, and release procedures
+title: Chiến Lược Triển Khai
+description: Xác định quy trình triển khai, hạ tầng và thủ tục phát hành
 ---
 
-# Deployment Strategy
+# Chiến Lược Triển Khai
 
-## Infrastructure
-**Where will the application run?**
+## Hạ Tầng
 
-- Hosting platform (AWS, GCP, Azure, etc.)
-- Infrastructure components (servers, databases, etc.)
-- Environment separation (dev, staging, production)
+**Ứng dụng sẽ chạy ở đâu?**
 
-## Deployment Pipeline
-**How do we deploy changes?**
+- Nền tảng lưu trữ (AWS, GCP, Azure, v.v.)
+- Các thành phần hạ tầng (máy chủ, cơ sở dữ liệu, v.v.)
+- Phân tách môi trường (dev, staging, production)
 
-### Build Process
-- Build steps and commands
-- Asset compilation/optimization
-- Environment configuration
+## Pipeline Triển Khai
 
-### CI/CD Pipeline
-- Automated testing gates
-- Build automation
-- Deployment automation
+**Chúng ta triển khai thay đổi như thế nào?**
 
-## Environment Configuration
-**What settings differ per environment?**
+### Quy Trình Xây Dựng
 
-### Development
-- Configuration details
-- Local setup
+- Các bước xây dựng và lệnh
+- Biên dịch/tối ưu hóa tài sản
+- Cấu hình môi trường
+
+### Pipeline CI/CD
+
+- Cổng kiểm tra tự động
+- Tự động hóa xây dựng
+- Tự động hóa triển khai
+
+## Cấu Hình Môi Trường
+
+**Cài đặt nào khác nhau theo môi trường?**
+
+### Phát Triển
+
+- Chi tiết cấu hình
+- Thiết lập cục bộ
 
 ### Staging
-- Configuration details
-- Testing environment
 
-### Production
-- Configuration details
-- Monitoring setup
+- Chi tiết cấu hình
+- Môi trường kiểm tra
 
-## Deployment Steps
-**What's the release process?**
+### Sản Xuất
 
-1. Pre-deployment checklist
-2. Deployment execution steps
-3. Post-deployment validation
-4. Rollback procedure (if needed)
+- Chi tiết cấu hình
+- Thiết lập giám sát
 
-## Database Migrations
-**How do we handle schema changes?**
+## Các Bước Triển Khai
 
-- Migration strategy
-- Backup procedures
-- Rollback approach
+**Quy trình phát hành là gì?**
 
-## Secrets Management
-**How do we handle sensitive data?**
+1. Danh sách kiểm tra trước triển khai
+2. Các bước thực hiện triển khai
+3. Xác thực sau triển khai
+4. Thủ tục rollback (nếu cần)
 
-- Environment variables
-- Secret storage solution
-- Key rotation strategy
+## Di Chuyển Cơ Sở Dữ Liệu
 
-## Rollback Plan
-**What if something goes wrong?**
+**Chúng ta xử lý thay đổi schema như thế nào?**
 
-- Rollback triggers
-- Rollback steps
-- Communication plan
+- Chiến lược di chuyển
+- Thủ tục sao lưu
+- Cách tiếp cận rollback
 
+## Quản Lý Bí Mật
+
+**Chúng ta xử lý dữ liệu nhạy cảm như thế nào?**
+
+- Biến môi trường
+- Giải pháp lưu trữ bí mật
+- Chiến lược xoay vòng khóa
+
+## Kế Hoạch Rollback
+
+**Nếu có gì đó sai sót thì sao?**
+
+- Kích hoạt rollback
+- Các bước rollback
+- Kế hoạch giao tiếp

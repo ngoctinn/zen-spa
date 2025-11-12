@@ -1,15 +1,16 @@
 ---
 phase: design
-title: System Design & Architecture
-description: Define the technical architecture, components, and data models
+title: Thiết Kế Hệ Thống & Kiến Trúc
+description: Xác định kiến trúc kỹ thuật, các thành phần và mô hình dữ liệu
 ---
 
-# System Design & Architecture
+# Thiết Kế Hệ Thống & Kiến Trúc
 
-## Architecture Overview
-**What is the high-level system structure?**
+## Tổng Quan Kiến Trúc
 
-- Include a mermaid diagram that captures the main components and their relationships. Example:
+**Cấu trúc hệ thống cấp cao là gì?**
+
+- Bao gồm sơ đồ mermaid nắm bắt các thành phần chính và mối quan hệ của chúng. Ví dụ:
   ```mermaid
   graph TD
     Client -->|HTTPS| API
@@ -17,44 +18,48 @@ description: Define the technical architecture, components, and data models
     API --> ServiceB
     ServiceA --> Database[(DB)]
   ```
-- Key components and their responsibilities
-- Technology stack choices and rationale
+- Các thành phần chính và trách nhiệm của chúng
+- Lựa chọn stack công nghệ và lý do
 
-## Data Models
-**What data do we need to manage?**
+## Mô Hình Dữ Liệu
 
-- Core entities and their relationships
-- Data schemas/structures
-- Data flow between components
+**Chúng ta cần quản lý dữ liệu nào?**
 
-## API Design
-**How do components communicate?**
+- Các thực thể cốt lõi và mối quan hệ của chúng
+- Schema/cấu trúc dữ liệu
+- Luồng dữ liệu giữa các thành phần
 
-- External APIs (if applicable)
-- Internal interfaces
-- Request/response formats
-- Authentication/authorization approach
+## Thiết Kế API
 
-## Component Breakdown
-**What are the major building blocks?**
+**Các thành phần giao tiếp như thế nào?**
 
-- Frontend components (if applicable)
-- Backend services/modules
-- Database/storage layer
-- Third-party integrations
+- API bên ngoài (nếu áp dụng)
+- Giao diện nội bộ
+- Định dạng yêu cầu/phản hồi
+- Cách tiếp cận xác thực/ủy quyền
 
-## Design Decisions
-**Why did we choose this approach?**
+## Phân Tích Thành Phần
 
-- Key architectural decisions and trade-offs
-- Alternatives considered
-- Patterns and principles applied
+**Các khối xây dựng chính là gì?**
 
-## Non-Functional Requirements
-**How should the system perform?**
+- Các thành phần frontend (nếu áp dụng)
+- Các dịch vụ/mô-đun backend
+- Lớp cơ sở dữ liệu/lưu trữ
+- Tích hợp bên thứ ba
 
-- Performance targets
-- Scalability considerations
-- Security requirements
-- Reliability/availability needs
+## Quyết Định Thiết Kế
 
+**Tại sao chúng ta chọn cách tiếp cận này?**
+
+- Các quyết định kiến trúc chính và sự đánh đổi
+- Các lựa chọn thay thế được xem xét
+- Các mẫu và nguyên tắc được áp dụng
+
+## Yêu Cầu Phi Chức Năng
+
+**Hệ thống nên hoạt động như thế nào?**
+
+- Mục tiêu hiệu suất
+- Cân nhắc khả năng mở rộng
+- Yêu cầu bảo mật
+- Nhu cầu độ tin cậy/khả dụng
