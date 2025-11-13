@@ -1,5 +1,6 @@
 "use client";
 
+import { InputWithIcon } from "@/components/shadcn-studio/input/InputWithIcon";
 import { Button } from "@/components/ui/button";
 import {
   Form,
@@ -9,9 +10,9 @@ import {
   FormLabel,
   FormMessage,
 } from "@/components/ui/form";
-import { Input } from "@/components/ui/input";
 import { createBrowserSupabaseClient } from "@/lib/supabase";
 import { zodResolver } from "@hookform/resolvers/zod";
+import { MailIcon } from "lucide-react";
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 import * as z from "zod";
@@ -87,9 +88,10 @@ export function ForgotPasswordForm() {
             <FormItem>
               <FormLabel>Email</FormLabel>
               <FormControl>
-                <Input
+                <InputWithIcon
                   type="email"
                   placeholder="Nhập email đã đăng ký"
+                  icon={<MailIcon className="size-4" />}
                   {...field}
                   autoFocus
                 />

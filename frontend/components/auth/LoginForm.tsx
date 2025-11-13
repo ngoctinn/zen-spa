@@ -1,5 +1,7 @@
 "use client";
 
+import { InputPassword } from "@/components/shadcn-studio/input/InputPassword";
+import { InputWithIcon } from "@/components/shadcn-studio/input/InputWithIcon";
 import { Button } from "@/components/ui/button";
 import {
   Form,
@@ -9,10 +11,9 @@ import {
   FormLabel,
   FormMessage,
 } from "@/components/ui/form";
-import { Input } from "@/components/ui/input";
 import { createBrowserSupabaseClient } from "@/lib/supabase";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { Eye, EyeOff } from "lucide-react";
+import { MailIcon } from "lucide-react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useState } from "react";
 import { useForm } from "react-hook-form";
@@ -26,7 +27,6 @@ const loginSchema = z.object({
 type LoginFormData = z.infer<typeof loginSchema>;
 
 export function LoginForm() {
-  const [showPassword, setShowPassword] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const router = useRouter();
   const searchParams = useSearchParams();
@@ -110,9 +110,10 @@ export function LoginForm() {
               <FormItem>
                 <FormLabel>Email</FormLabel>
                 <FormControl>
-                  <Input
+                  <InputWithIcon
                     type="email"
                     placeholder="Nhập email của bạn"
+                    icon={<MailIcon className="size-4" />}
                     {...field}
                     autoFocus
                   />
@@ -129,29 +130,7 @@ export function LoginForm() {
               <FormItem>
                 <FormLabel>Mật Khẩu</FormLabel>
                 <FormControl>
-                  <div className="relative">
-                    <Input
-                      type={showPassword ? "text" : "password"}
-                      placeholder="Nhập mật khẩu"
-                      {...field}
-                    />
-                    <Button
-                      type="button"
-                      variant="ghost"
-                      size="sm"
-                      className="absolute right-0 top-0 h-full px-3 py-2 hover:bg-transparent focus:bg-transparent bg-transparent border-0 z-0"
-                      onClick={() => setShowPassword(!showPassword)}
-                      aria-label={
-                        showPassword ? "Ẩn mật khẩu" : "Hiện mật khẩu"
-                      }
-                    >
-                      {showPassword ? (
-                        <EyeOff className="h-4 w-4" />
-                      ) : (
-                        <Eye className="h-4 w-4" />
-                      )}
-                    </Button>
-                  </div>
+                  <InputPassword placeholder="Nhập mật khẩu" {...field} />
                 </FormControl>
                 <FormMessage />
               </FormItem>
